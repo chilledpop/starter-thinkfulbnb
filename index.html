@@ -34,47 +34,33 @@
       <!-- Stay -->
       <section id="stay">
         <h2>Find the perfect vacation rental</h2>
-        <!-- Create a form here -->
-        <form class="group">
-          <div>
+        <form class="vacation">
+          <div class="item form-div">
             <label for="location">Location</label>
-            <input 
-              id="location"
-              type="type"
-              name="location"
-              placeholder="Search destination"
-            />
+            <input id="location" name="location" placeholder="Search destination" />
           </div>
-          <div>
-            <label for="arrive">Arrive</label>
-            <input
-              id="arrive"
-              type="date"
-              name="arrive"
-            />
+          <div class="item form-div">
+            <label for="arrival">Arrive</label>
+            <input id="arrival" type="date" name="arrival-date" placeholder="mm/dd/yyyy" />
           </div>
-          <div>
+          <div class="item form-div">
             <label for="depart">Depart</label>
-            <input 
-              id="depart"
-              type="date"
-              name="depart"
-            />
+            <input id="departure" type="date" name="departure-date" />
           </div>
-          <div>
+          <div class="item form-div">
             <label for="type">Type</label>
             <select name="type" id="type" size="1">
               <option value="apartment">Apartment</option>
               <option value="barn">Barn</option>
-              <option value="Castle">Castle</option>
-              <option value="Houseboat">Houseboat</option>
-              <option value="TinyHouse">Tiny House</option>
-              <option value="Yacht">Yacht</option>
+              <option value="castle">Castle</option>
+              <option value="houseboat">Houseboat</option>
+              <option value="tiny-house">Tiny House</option>
+              <option value="yacht">Yacht</option>
               <option value="yurt">Yurt</option>
             </select>
           </div>
-          <div>
-            <button type="search">Search</button>
+          <div class="item">
+            <button type="submit">Search</button>
           </div>
         </form>
       </section>
@@ -96,16 +82,13 @@
               alt="Thinkfulbnb - Vacation rental inside stone"
             />
           </div>
-
-          <div class="item item-double">
-            <p>
+          <p class="item item-double">
               Fusce porta odio nunc, eget pretium massa rutrum sit amet. Etiam
               fringilla aliquam dapibus. Maecenas quis nisi sed turpis aliquam
               porttitor eget ut quam. Sed vel scelerisque ex. Duis in pharetra
               neque, at tempus lorem. Aenean mi magna, posuere at quam sed, euismod
               gravida neque.
-            </p>
-          </div>
+          </p>
         </div>
       </section>
 
@@ -168,6 +151,7 @@
           <div class="item">
             <img src="images/become-a-host.png" alt="Thinkfulbnb - Become a host" />
           </div>
+        </div>
 
       </section>
     </main>
