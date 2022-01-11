@@ -72,7 +72,6 @@ header nav {
 header nav ul {
   display: flex;
   padding-left: 0;
-  list-style: none;
 }
 
 header nav ul li {
@@ -177,5 +176,6 @@ footer p {
   form select,
   form input {
     margin-bottom: 0;
+    width: 180px;
   }
 }
